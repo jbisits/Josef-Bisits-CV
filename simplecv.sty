@@ -119,7 +119,8 @@
     \begin{enumerate}[leftmargin=*] #1 \end{enumerate}}
 
 % List items
-\newcommand{\entry}[1]{\item\small{#1}}
+%\newcommand{\entry}[1]{\item\small{#1}}
+\newcommand{\entry}[1][]{\small\item[#1]}
 \newcommand{\entryextra}[1]{\textcolor{color-detail}{\entry{#1}}}
 \newcommand{\entrylabeled}[2][]{\item[#1]\small{#2}}
 
@@ -127,9 +128,14 @@
     \item[#1] \small{#2} \hfill \small{#3}
     \vspace{-\smallskipamount} \item[]\small{\textit{#4}}}
 
+% \newcommand{\entrybig}[5][]{\item[#1]
+%     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+%     #2 & #3 \\ {\small#4} & {\small #5} \\ \end{tabular*}}
+
 \newcommand{\entrybig}[5][]{\item[#1]
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
     #2 & #3 \\ {\small#4} & {\small #5} \\ \end{tabular*}}
+
 
 % Fill year
 \newcommand{\fillyear}[1]{\phantom{#1}}
