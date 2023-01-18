@@ -14,6 +14,10 @@
 \usepackage{graphicx}                       % Importing graphics
 \usepackage[export]{adjustbox}              % Aligning margins
 \usepackage{array}                          % For table width
+\usepackage{fontawesome5}                   % For some icons
+
+\newcommand{\julia}{\includegraphics[trim=0 1cm 0 -1cm, height=1.4em]{logos/julia-colour-logo.png}}
+\newcommand{\Rlogo}{\includegraphics[trim=0 1cm 0 -1cm, height=1.4em]{logos/R_logo.png}}
 
 % % Chinese
 % \usepackage{xeCJK}
@@ -38,8 +42,8 @@
 \MakeOuterQuote{"}
 
 % Hyperlinks
-\newcommand{\link}[2]{\href{#1}{\underline{\smash{#2}}}}
-%\newcommand{\link}[2]{\href{#1}{#2}}
+%\newcommand{\link}[2]{\href{#1}{\underline{\smash{#2}}}}
+\newcommand{\link}[2]{\href{#1}{#2}}
 
 % Define colors
 \definecolor{color-text}{gray}{0.10}    % light black
