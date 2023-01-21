@@ -68,16 +68,33 @@
 \newenvironment*{dummyenv}{}{}
 
 % Inline heading
-\newcommand{\headinginline}[2]{
+% \newcommand{\headinginline}[2]{
+%     \begin{minipage}[t]{0.60\textwidth}
+%     \vspace*{\fill}
+%     \Huge \textcolor{color-title}{#1}
+%     \end{minipage}
+%     \begin{minipage}[t]{0.35\textwidth}
+%     \begin{flushright}
+%     #2
+%     \end{flushright}
+%     \end{minipage}
+% }
+
+% Inline heading, include address
+\newcommand{\headinginline}[3]{
     \begin{minipage}[t]{0.60\textwidth}
-    \vspace*{\fill}
+    %\vspace*{\fill}
     \Huge \textcolor{color-title}{#1}
+    \vspace{+\smallskipamount}
+    \newline
+    \small\textcolor{color-title}{#2}
     \end{minipage}
     \begin{minipage}[t]{0.35\textwidth}
     \begin{flushright}
-    #2
+    #3
     \end{flushright}
     \end{minipage}
+    \vspace{+\bigskipamount}
 }
 
 % Photo heading
