@@ -58,30 +58,31 @@
 \AtBeginDocument{\globalcolor{color-text}}
 
 % Shorthand
-\newcommand{\github}[1]{\href{https://github.com/#1/}{github.com/#1}}
-\newcommand{\email}[1]{\href{mailto:#1}{#1}}
-\newcommand{\website}[1]{\href{https://#1/}{#1}}
-\newcommand{\linkedin}[1]{\href{https://www.linkedin.com/in/#1/}{#1}}
-\newcommand{\ORCID}[1]{\href{https://orcid.org/#1}{#1}}
+\newcommand{\github}[1]{\texttt{\href{https://github.com/#1/}{github.com/#1}}}
+\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+\newcommand{\website}[1]{\texttt{\href{https://#1/}{#1}}}
+\newcommand{\linkedin}[1]{\texttt{\href{https://www.linkedin.com/in/#1/}{#1}}}
+\newcommand{\ORCID}[1]{\texttt{\href{https://orcid.org/#1}{#1}}}
+\newcommand{\gitpackage}[1]{\texttt{\href{https://github.com/#1/}{#1}}}
 
 % Dummy environment
 \newenvironment*{dummyenv}{}{}
 
-% Inline heading
-% \newcommand{\headinginline}[2]{
-%     \begin{minipage}[t]{0.60\textwidth}
-%     \vspace*{\fill}
-%     \Huge \textcolor{color-title}{#1}
-%     \end{minipage}
-%     \begin{minipage}[t]{0.35\textwidth}
-%     \begin{flushright}
-%     #2
-%     \end{flushright}
-%     \end{minipage}
-% }
+%Inline heading
+\newcommand{\headinginline}[2]{
+    \begin{minipage}[t]{0.60\textwidth}
+    \vspace*{\fill}
+    \Huge \textcolor{color-title}{#1}
+    \end{minipage}
+    \begin{minipage}[t]{0.38\textwidth}
+    \begin{flushright}
+    #2
+    \end{flushright}
+    \end{minipage}
+}
 
 % Inline heading, include address
-\newcommand{\headinginline}[3]{
+\newcommand{\headinginlineaddress}[3]{
     \begin{minipage}[t]{0.60\textwidth}
     %\vspace*{\fill}
     \Huge \textcolor{color-title}{#1}
@@ -89,7 +90,7 @@
     \newline
     \small\textcolor{color-title}{#2}
     \end{minipage}
-    \begin{minipage}[t]{0.35\textwidth}
+    \begin{minipage}[t]{0.38\textwidth}
     \begin{flushright}
     #3
     \end{flushright}
