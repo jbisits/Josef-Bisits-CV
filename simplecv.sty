@@ -67,6 +67,13 @@
 \newcommand{\authoryeartitle}[3]{#1, #2: #3}
 \newcommand{\journal}[3]{\textit{#1}, \textbf{#2}, #3,}
 \newcommand{\DOI}[1]{DOI: \href{https://doi.org/#1}{#1}}
+\newcommand{\paper}[7]{
+    \authoryeartitle{#1}{#2}{#3}
+    \journal{#4}{#5}{#6}
+    \DOI{#7}.
+    }
+\newcommand{\presentation}[4]{#1, #2 #3, \textit{#4}.}
+\newcommand{\me}{\textbf{Bisits, Joesf I.}}
 
 % Dummy environment
 \newenvironment*{dummyenv}{}{}
