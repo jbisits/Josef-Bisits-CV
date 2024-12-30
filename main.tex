@@ -1,8 +1,9 @@
 \documentclass[letterpaper,10pt]{article}
 
 % Choose bibliography style for formatting list of publications
-\usepackage[style=ieee,url=false,maxbibnames=99,dashed=false]{biblatex}
-% \bibliography{papers}
+\usepackage[backend=biber, style=nature, url=false, isbn=false, doi=true]{biblatex}
+\addbibresource{papers.bib}
+\renewcommand*{\bibfont}{\normalsize}
 
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
 \def\theme{MidnightBlue}
@@ -11,7 +12,7 @@
 
 \usepackage{simplecv}
 
-\boldname{Bisits}{Josef}{J.}
+\boldname{Bisits}{Josef I.}{J. I.}
 
 \begin{document}
 
