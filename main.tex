@@ -1,10 +1,19 @@
 \documentclass[letterpaper,10pt]{article}
 
 % Choose bibliography style for formatting list of publications
-\usepackage[backend=biber, style=nature, url=false, isbn=false, doi=true, defernumbers=true]{biblatex}
-\addbibresource{papers.bib}
-\addbibresource{presentations.bib}
+\usepackage[backend=biber, 
+            url=false, 
+            isbn=false, 
+            doi=true, 
+            defernumbers=true,
+            bibstyle=publist,
+            hlyear=false,
+            plauthorhandling=highlight,
+            plnumbering=none]{biblatex}
+\addbibresource{bibs/papers.bib}
+\addbibresource{bibs/presentations.bib}
 \renewcommand*{\bibfont}{\normalsize}
+\plauthorname[Josef I.][]{Bisits}
 
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
 \def\theme{MidnightBlue}
@@ -12,8 +21,6 @@
 %Can update this later to include all sections as I have something to put into them.
 
 \usepackage{simplecv}
-
-\boldname{Bisits}{Josef I.}{J. I.}
 
 \begin{document}
 
