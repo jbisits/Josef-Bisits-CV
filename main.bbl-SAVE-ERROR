@@ -18,94 +18,269 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{Bisits2022}{article}{}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{Bisits2025}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=97614164fe629a83d1394b06ab195cfa}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
            family={Bisits},
            familyi={B\bibinitperiod},
            given={Josef\bibnamedelima I.},
-           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d5dfb4102af06b30c28b4a2a180b270}{%
-           family={Stanley},
-           familyi={S\bibinitperiod},
-           given={Geoffrey\bibnamedelima J.},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4d2ffbdcac741253ea32ab8609cac1e}{%
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=f4d2ffbdcac741253ea32ab8609cac1e}{%
            family={Zika},
            familyi={Z\bibinitperiod},
            given={Jan\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=61074212b028f090dfc087039c3ca435}{%
+           family={Sohail},
+           familyi={S\bibinitperiod},
+           given={Taimoor},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{66e750b6af47625bdd1226b392935a42}
-      \strng{fullhash}{66e750b6af47625bdd1226b392935a42}
-      \strng{bibnamehash}{66e750b6af47625bdd1226b392935a42}
-      \strng{authorbibnamehash}{66e750b6af47625bdd1226b392935a42}
-      \strng{authornamehash}{66e750b6af47625bdd1226b392935a42}
-      \strng{authorfullhash}{66e750b6af47625bdd1226b392935a42}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{cdcece9162cdc40d3f2de0ed3f37584a}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{cdcece9162cdc40d3f2de0ed3f37584a}
+      \strng{authornamehash}{cdcece9162cdc40d3f2de0ed3f37584a}
+      \strng{authorfullhash}{cdcece9162cdc40d3f2de0ed3f37584a}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
-      \field{abstract}{Mixing along sloping isopycnals plays a key role in the transport and uptake of heat and carbon by the ocean. This mixing is quantified by a lateral diffusivity, which can be measured by tracking the lateral spreading of point release tracer patches. We present a definition for the area of a tracer patch, the time derivative of which provides the lateral diffusivity. To accurately estimate the diffusivity, an ensemble mean concentration field of many tracer release experiments is required. We use numerical experiments to quantify how accurately the “true” lateral diffusivity (obtained from the ensemble mean concentration field) can be estimated from a single tracer release experiment (one ensemble member). To simulate observational campaigns, we also estimate the diffusivity from a single tracer release that is spatially and/or temporally subsampled, quantifying how the error between the estimated diffusivity and the true diffusivity grows as this sampling resolution worsens. We perform these numerical experiments in a two-layer quasigeostrophic model of turbulent flow on a β plane, using an ensemble of 50 passive tracer release experiments, each initialized as a 2D Gaussian but with differing realizations of the turbulent flow. We find that the diffusivity estimates from the single tracer releases have a relative root-mean-square error (RMSE) of 1.43% from the true diffusivity. Subsampling a single tracer release experiment every 956 km increases the relative RMSE from the true diffusivity to 3.1%; also subsampling every 277 days raises this figure to 6.5%.}
-      \field{issn}{0022-3670}
-      \field{issue}{2}
-      \field{journaltitle}{Journal of Physical Oceanography}
-      \field{month}{2}
-      \field{title}{Can We Accurately Quantify a Lateral Diffusivity from a Single Tracer Release?}
-      \field{volume}{53}
-      \field{year}{2023}
+      \field{abstract}{At constant pressure, a mixture of water parcels with equal density but differing salinity and temperature will be denser than the parent water parcels. This is known as cabbeling and is a consequence of the nonlinear equation of state for seawater density. With a source of turbulent vertical mixing, cabbeling has the potential to trigger and drive convection in gravitationally stable water columns and there is observational evidence that this process shapes the thermohaline structure of high-latitude oceans. However, the evolution and maintenance of turbulent mixing due to cabbeling has not been fully explored. Here, we use turbulence-resolving direct numerical simulations to investigate cabbeling’s impact on vertical mixing and pathways of energy in closed systems. We find that cabbeling can sustain convection in an initially gravitationally stable two-layer configuration where relatively cold/fresh water sits atop warm/salty water. We show the mixture of the cold/fresh and warm/salty water is constrained by a density maximum and that cabbeling enhances mixing rates by four orders of magnitude. Cabbeling’s effect is amplified as the static stability limit is approached, leading to convection being sustained for longer. We find that available potential energy, which is classically thought to only decrease with mixing, can increase with mixing due to cabbeling’s densification of the mixed water. Our direct numerical simulations support the notion that cabbeling could be a source of enhanced ocean mixing and that conventional definitions of energetic pathways may need to be reconsidered to take into account densification under mixing.}
+      \field{issn}{0022-1120}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{month}{5}
+      \field{sortyear}{2025}
+      \field{title}{Cabbeling as a catalyst and driver of turbulent mixing}
+      \field{volume}{1011}
+      \field{year}{2025}
       \true{nocite}
-      \field{pages}{647\bibrangedash 659}
-      \range{pages}{13}
+      \field{pages}{A17}
+      \range{pages}{-1}
       \verb{doi}
-      \verb 10.1175/JPO-D-22-0145.1
+      \verb 10.1017/jfm.2025.349
       \endverb
-      \keyw{isopycnal mixing,mesoscale processes,tracers}
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0022112025003490/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0022112025003490/type/journal_article
+      \endverb
+    \endentry
+    \entry{Bisits2024c}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Oral presentation}
+      \field{booktitle}{Gordon Research Seminar on Ocean Mixing}
+      \field{month}{6}
+      \field{sortyear}{2024}
+      \field{title}{Does cabbeling shape the thermohaline structure of high-latitude oceans?}
+      \field{year}{2024}
+      \true{nocite}
+      \keyw{presentation}
+    \endentry
+    \entry{Bisits2024d}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Oral presentation}
+      \field{booktitle}{Australian Meteorological and Oceanographic Society annual conference}
+      \field{month}{2}
+      \field{sortyear}{2024}
+      \field{title}{Does cabbeling shape the thermohaline structure of high-latitude oceans?}
+      \field{year}{2024}
+      \true{nocite}
+      \keyw{presentation}
+    \endentry
+    \entry{Bisits2024b}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Poster presentation}
+      \field{booktitle}{Gordon Research Conference on Ocean Mixing}
+      \field{month}{6}
+      \field{sortyear}{2024}
+      \field{title}{The effect of non-linear processes on mixing}
+      \field{year}{2024}
+      \true{nocite}
+      \keyw{presentation}
+    \endentry
+    \entry{Bisits2024a}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Poster presentation}
+      \field{booktitle}{Australian Antarctic Research Conference}
+      \field{month}{11}
+      \field{sortyear}{2024}
+      \field{title}{The effects of cabbeling on mixing and energetics in polar oceans}
+      \field{year}{2024}
+      \true{nocite}
+      \keyw{presentation}
     \endentry
     \entry{Bisits2024}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=97614164fe629a83d1394b06ab195cfa}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
            family={Bisits},
            familyi={B\bibinitperiod},
            given={Josef\bibnamedelima I.},
-           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f4d2ffbdcac741253ea32ab8609cac1e}{%
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=f4d2ffbdcac741253ea32ab8609cac1e}{%
            family={Zika},
            familyi={Z\bibinitperiod},
            given={Jan\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5fc85eb50dcee4081d59bc72d9c19795}{%
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5fc85eb50dcee4081d59bc72d9c19795}{%
            family={Evans},
            familyi={E\bibinitperiod},
            given={Dafydd\bibnamedelima Gwyn},
-           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{bfb2899b4cd1748b1d3b1d11034a7741}
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{fullhash}{bfb2899b4cd1748b1d3b1d11034a7741}
-      \strng{bibnamehash}{bfb2899b4cd1748b1d3b1d11034a7741}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{authorbibnamehash}{bfb2899b4cd1748b1d3b1d11034a7741}
       \strng{authornamehash}{bfb2899b4cd1748b1d3b1d11034a7741}
       \strng{authorfullhash}{bfb2899b4cd1748b1d3b1d11034a7741}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
-      \field{abstract}{Vertical exchange of heat and carbon in the ocean regulates Earth’s climate. Convection, a driver of near-surface exchange, occurs when dense water overlies light water. In a 1957 study, N. Fofonoff pointed out that when lighter overlying cold-fresh water mixes with denser underlying warm-salty water, the mixture can become denser than the underlying water due to a nonlinear process known as cabbeling. He suggested that such profiles, despite being gravitationally stable, could be classed as being unstable to cabbeling. Fofonoff hypothesized that, by mixing away such profiles, cabbeling may be shaping the thermohaline structure of polar oceans. We investigate this hypothesis here. In a one-dimensional model, we find that convective mixing occurs in temperature inverted profiles that are unstable to cabbeling even when they are initially gravitationally stable. In data from an observationally constrained global circulation model, we find profiles with a temperature inversion larger than −0.5°C are unstable to cabbeling less than 0.02% of the time, and in high-quality in situ observations, they are unstable less than 12% of the time. We find that due to cabbeling, larger temperature inversions, which should weaken stratification, make profiles more stable. Our results suggest that cabbeling limits the stability behavior of temperature inverted profiles and influences the thermohaline structure in parts of the ocean where cold-fresh water overlays warm-salty water.</p>}
+      \field{abstract}{Vertical exchange of heat and carbon in the ocean regulates Earth’s climate. Convection, a driver of near-surface exchange, occurs when dense water overlies light water. In a 1957 study, N. Fofonoff pointed out that when lighter overlying cold-fresh water mixes with denser underlying warm-salty water, the mixture can become denser than the underlying water due to a nonlinear process known as cabbeling. He suggested that such profiles, despite being gravitationally stable, could be classed as being unstable to cabbeling. Fofonoff hypothesized that, by mixing away such profiles, cabbeling may be shaping the thermohaline structure of polar oceans. We investigate this hypothesis here. In a one-dimensional model, we find that convective mixing occurs in temperature inverted profiles that are unstable to cabbeling even when they are initially gravitationally stable. In data from an observationally constrained global circulation model, we find profiles with a temperature inversion larger than −0.5°C are unstable to cabbeling less than 0.02% of the time, and in high-quality in situ observations, they are unstable less than 12% of the time. We find that due to cabbeling, larger temperature inversions, which should weaken stratification, make profiles more stable. Our results suggest that cabbeling limits the stability behavior of temperature inverted profiles and influences the thermohaline structure in parts of the ocean where cold-fresh water overlays warm-salty water.}
       \field{issn}{0022-3670}
       \field{issue}{12}
       \field{journaltitle}{Journal of Physical Oceanography}
       \field{month}{12}
+      \field{sortyear}{2024}
       \field{title}{Does Cabbeling Shape the Thermohaline Structure of High-Latitude Oceans?}
       \field{volume}{54}
       \field{year}{2024}
@@ -121,6 +296,219 @@
       \verb{url}
       \verb https://journals.ametsoc.org/view/journals/phoc/54/12/JPO-D-24-0061.1.xml
       \endverb
+    \endentry
+    \entry{Bisits2023b}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Oral presentation}
+      \field{booktitle}{XVIII General Assembly of the International Union of Geodesy and Geophysics (IUGG}
+      \field{month}{7}
+      \field{sortyear}{2023}
+      \field{title}{Can we accurately quantify a lateral diffusivity from a single tracer release?}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{presentation}
+    \endentry
+    \entry{Bisits2023a}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Poster presentation}
+      \field{booktitle}{Physics of the Ocean Summer School}
+      \field{month}{7}
+      \field{sortyear}{2023}
+      \field{title}{Does cabbeling shape the thermohaline structure of high-latitude oceans?}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{presentation}
+    \endentry
+    \entry{Bisits2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=6d5dfb4102af06b30c28b4a2a180b270}{%
+           family={Stanley},
+           familyi={S\bibinitperiod},
+           given={Geoffrey\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f4d2ffbdcac741253ea32ab8609cac1e}{%
+           family={Zika},
+           familyi={Z\bibinitperiod},
+           given={Jan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{66e750b6af47625bdd1226b392935a42}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{66e750b6af47625bdd1226b392935a42}
+      \strng{authornamehash}{66e750b6af47625bdd1226b392935a42}
+      \strng{authorfullhash}{66e750b6af47625bdd1226b392935a42}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mixing along sloping isopycnals plays a key role in the transport and uptake of heat and carbon by the ocean. This mixing is quantified by a lateral diffusivity, which can be measured by tracking the lateral spreading of point release tracer patches. We present a definition for the area of a tracer patch, the time derivative of which provides the lateral diffusivity. To accurately estimate the diffusivity, an ensemble mean concentration field of many tracer release experiments is required. We use numerical experiments to quantify how accurately the “true” lateral diffusivity (obtained from the ensemble mean concentration field) can be estimated from a single tracer release experiment (one ensemble member). To simulate observational campaigns, we also estimate the diffusivity from a single tracer release that is spatially and/or temporally subsampled, quantifying how the error between the estimated diffusivity and the true diffusivity grows as this sampling resolution worsens. We perform these numerical experiments in a two-layer quasigeostrophic model of turbulent flow on a β plane, using an ensemble of 50 passive tracer release experiments, each initialized as a 2D Gaussian but with differing realizations of the turbulent flow. We find that the diffusivity estimates from the single tracer releases have a relative root-mean-square error (RMSE) of 1.43% from the true diffusivity. Subsampling a single tracer release experiment every 956 km increases the relative RMSE from the true diffusivity to 3.1%; also subsampling every 277 days raises this figure to 6.5%.}
+      \field{issn}{0022-3670}
+      \field{issue}{2}
+      \field{journaltitle}{Journal of Physical Oceanography}
+      \field{month}{2}
+      \field{sortyear}{2023}
+      \field{title}{Can We Accurately Quantify a Lateral Diffusivity from a Single Tracer Release?}
+      \field{volume}{53}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{647\bibrangedash 659}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1175/JPO-D-22-0145.1
+      \endverb
+      \keyw{isopycnal mixing,mesoscale processes,tracers}
+    \endentry
+    \entry{Bisits2022b}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Poster presentation}
+      \field{booktitle}{Australian Centre for Excellence in Antarctic Science workshop}
+      \field{month}{11}
+      \field{sortyear}{2022}
+      \field{title}{Can we accurately quantify a lateral diffusivity from a single tracer release?}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{presentation}
+    \endentry
+    \entry{Bisits2022a}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=97614164fe629a83d1394b06ab195cfa}{%
+           family={Bisits},
+           familyi={B\bibinitperiod},
+           given={Josef\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{fullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authornamehash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{authorfullhash}{97614164fe629a83d1394b06ab195cfa}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Oral presentation}
+      \field{booktitle}{Australian Meteorological and Oceanographic Society annual conference}
+      \field{month}{11}
+      \field{sortyear}{2022}
+      \field{title}{Can we accurately quantify a lateral diffusivity from a single tracer release?}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{presentation}
     \endentry
   \enddatalist
 \endrefsection
