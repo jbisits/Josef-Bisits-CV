@@ -1,21 +1,5 @@
 \documentclass[letterpaper,10pt]{article}
 
-% Choose bibliography style for formatting list of publications
-\usepackage[backend=biber, 
-            url=false, 
-            isbn=false, 
-            doi=true, 
-            defernumbers=true,
-            bibstyle=publist,
-            hlyear=false,
-            plauthorhandling=highlight,
-            plnumbering=none]{biblatex}
-\addbibresource{bibs/papers.bib}
-\addbibresource{bibs/oral_presos.bib}
-\addbibresource{bibs/posters.bib}
-\renewcommand*{\bibfont}{\normalsize}
-\plauthorname[Josef I.][]{Bisits}
-
 % Theme
 \def\theme{MidnightBlue}
 
@@ -23,8 +7,7 @@
 
 \begin{document}
 
-% Heading
-% With address
+% Heading with address
 \headinginlineaddress{Josef Bisits}{Biological, Earth and Environmental Sciences, \\ The University of New South Wales.}{
     \begin{center}
         \small
@@ -40,27 +23,13 @@
     \end{center}
 }
 
-% No address
-% \headinginline{Josef Bisits}{
-%     \begin{center}
-%         \begin{tabular}{m{8em} l}
-%         Phone number: & +61 400 348 389\\
-%         Email:        & \email{jbisits@gmail.com} \\
-%         Website:      & \website{jbisits.github.io/} \\
-%         LinkedIn:     & \linkedin{josef-bisits-066253123} \\
-%         GitHub:       & \github{jbisits} \\
-%         ORCID:        & \ORCID{0000-0002-6340-4470}
-%         \end{tabular}
-%     \end{center}
-% }
-
 \import{sections/}{education.tex}
 \import{sections/}{publications.tex}
 \import{sections/}{presentations.tex}
 \import{sections/}{research.tex}
-% \sidebyside
-%     {\import{sections/}{twocol_programmingskills.tex}}
-%     {\import{sections/}{twocol_teaching.tex}}
+% \sidebyside teaching and programming
+%     {\import{sections/twocol/}{twocol_programmingskills.tex}}
+%     {\import{sections/twocol}{twocol_teaching.tex}}
 \import{sections/}{teaching.tex}
 \import{sections/}{programmingskills.tex}
 \import{sections/}{professional_activities.tex}

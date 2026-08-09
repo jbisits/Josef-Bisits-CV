@@ -16,6 +16,37 @@
 \usepackage[export]{adjustbox}              % Aligning margins
 \usepackage{array}                          % For table width
 %\usepackage{fontawesome5}                   % For some icons
+\usepackage{setspace}
+\usepackage{etoolbox}
+
+% In text bibliography setup.
+\usepackage[backend=biber,
+            url=false,
+            isbn=false,
+            doi=true,
+            defernumbers=true,
+            bibstyle=publist,
+            hlyear=false,
+            plauthorhandling=highlight,
+            plnumbering=none]{biblatex}
+\addbibresource{bibs/papers.bib}
+\addbibresource{bibs/oral_presos.bib}
+\addbibresource{bibs/posters.bib}
+\renewcommand*{\bibfont}{\normalsize}
+\plauthorname[Josef I.][]{Bisits}
+\AtBeginBibliography{\setstretch{1.15}}
+\setlength{\bibitemsep}{0pt}
+
+\defbibenvironment{bibliography}
+  {\list
+     {\textbullet}
+     {\setlength{\labelwidth}{1em}%
+      \setlength{\leftmargin}{1em}%
+      \setlength{\labelsep}{0.5em}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}}
+  {\endlist}
+  {\item}
 
 \newcommand{\julia}{\includegraphics[trim=0 1cm 0 -1cm, height=1.4em]{logos/julia-colour-logo.png}}
 \newcommand{\fortran}{\includegraphics[trim=0 1cm 0 -1cm, height=1.4em]{logos/Fortran-logo.png}}
