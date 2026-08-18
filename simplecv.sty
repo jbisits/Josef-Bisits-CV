@@ -170,12 +170,11 @@
 
 % Section titles
 \titleformat{\section}{
-    \scshape\raggedright\Large\color{color-title}}{}{0em}{}[\color{color-title}\titlerule
-    \vspace{-\smallskipamount}]
+    \scshape\raggedright\Large\color{color-title}}{}{0em}{}[\color{color-title}\titlerule]
 \titleformat{\subsection}{
-    \scshape\raggedright\large\color{color-title}}{}{0em}{}[\color{color-title}
-    \vspace{-\smallskipamount}]
-
+    \scshape\raggedright\large\color{color-title}}{}{0em}{}[\color{color-title}]
+\titlespacing*{\section}{0pt}{5pt}{10pt}
+\titlespacing*{\subsection}{0pt}{0pt}{5pt}
 % Footer
 \fancyfoot[R]{Page \thepage \hspace{1pt} of \pageref*{LastPage}} %remove * to colour \pageref
 
