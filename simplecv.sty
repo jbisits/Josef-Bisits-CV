@@ -129,19 +129,22 @@
 
 \newcommand{\headinginlineaddress}[4]{
     \begin{minipage}[t]{0.60\textwidth}
-    %\vspace*{\fill}
+    % \vspace*{\fill}
     \Huge \textcolor{color-title}{#1}
     \vspace{+\smallskipamount}
     \newline
-    \small\textcolor{color-title}{#2}
+    \large\textcolor{color-title}{#2}
     \newline
-    \small\textcolor{color-title}{#3}
+    \large\textcolor{color-title}{#3}
     \end{minipage}
-    \begin{minipage}[t]{0.38\textwidth}
+    \hfill
+    \begin{minipage}[t]{0.34\textwidth}
+    \small
     \begin{flushright}
     #4
     \end{flushright}
     \end{minipage}
+    \vspace{+\bigskipamount}
 }
 
 % Photo heading
