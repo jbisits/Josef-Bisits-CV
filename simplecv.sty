@@ -54,14 +54,6 @@
 \newcommand{\python}{\includegraphics[trim=0 1cm 0 -1cm, height=1.4em]{logos/python-logo.png}}
 \newcommand{\octave}{\includegraphics[trim=0 1cm 0 -1cm, height=1.4em]{logos/Gnu-octave-logo.png}}
 
-% % Chinese
-% \usepackage{xeCJK}
-% \setCJKmainfont{BabelStone Han}
-
-% % Cyrillic/Russian
-% \usepackage{hyphenat}
-% \babelfont{rm}{Droid Sans}
-
 % Styling
 \pagestyle{fancy}
 \fancyhf{}
@@ -164,6 +156,18 @@
     \end{minipage}
 }
 
+\newcommand{\onepageheadinginlineaddress}[2]{
+    \begin{minipage}[t]{0.60\textwidth}
+    \Huge \textcolor{color-title}{#1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.34\textwidth}
+    \small
+    \begin{flushright}
+    #2
+    \end{flushright}
+    \end{minipage}
+}
 % Two-columns
 \newcommand{\sidebyside}[2]{
     \begin{multicols}{2}
