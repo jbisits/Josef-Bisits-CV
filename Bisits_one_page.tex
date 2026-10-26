@@ -1,0 +1,28 @@
+% one page version of CV
+\documentclass[letterpaper,10pt]{article}
+
+% Theme
+\def\theme{MidnightBlue}
+
+\usepackage{simplecv}
+
+\begin{document}
+
+% Heading with address
+\onepageheadinginlineaddress{Josef Bisits}{
+    \begin{center}
+        \begin{tabular}{m{8em} l}
+            Email:          & \email{jbisits@gmail.com} \\
+            GitHub:         & \github{jbisits} \\
+            ORCID:          & \ORCID{0000-0002-6340-4470} \\
+        \end{tabular}
+    \end{center}
+}
+
+\import{onepage/}{science_experience.tex}
+\import{onepage/}{education.tex}
+\import{onepage/}{awards.tex}
+\import{onepage/}{professional_activities.tex}
+\import{onepage/}{model_development.tex}
+
+\end{document}
