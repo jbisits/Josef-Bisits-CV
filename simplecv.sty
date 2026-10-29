@@ -156,15 +156,20 @@
     \end{minipage}
 }
 
-\newcommand{\onepageheadinginlineaddress}[2]{
+\newcommand{\onepageheadinginlineaddress}[4]{
     \begin{minipage}[t]{0.60\textwidth}
-    \Huge \textcolor{color-title}{#1}
+    \huge \textcolor{color-title}{#1}
+    \vspace{+\smallskipamount}
+    \newline
+    \small\textcolor{color-title}{#2}
+    \newline
+    \small\textcolor{color-title}{#3}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.34\textwidth}
-    \small
+    \footnotesize
     \begin{flushright}
-    #2
+    #4
     \end{flushright}
     \end{minipage}
 }
